@@ -1,0 +1,76 @@
+
+html{
+    background-image: url(../img/bgimages.webp); /* 画像のパスを指定 */
+    background-size: cover; /* 画像を全体にフィットさせる */
+    background-repeat: no-repeat; /* 画像の繰り返しを防ぐ */
+    background-position: center; /* 画像の位置を中央に */
+    background-color:rgba(255,255,255,0.8);
+    background-blend-mode:lighten;
+    margin: 0; /* ページの余白をなくす */
+    height: 100vh; /* ビューポートの高さを設定 */
+}
+
+body{
+    font-size:26px;
+    line-height: 1.5;
+    color:#424242;    
+    font-family: 'Roboto', "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "游ゴシック", YuGothic,'Meiryo UI',Meiryo,"ＭＳ ゴシック",Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+}
+
+.wrapper {
+    padding: 80px;
+    max-width: 800px;
+    margin-inline: auto;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px;
+    width: 100%;
+}
+
+.task-add-panel {
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.task-show-panel {
+    margin-bottom: 24px;
+    border-top: solid 1px #efefef;
+}
+.task-show-panel li {
+    padding: 12px;
+    border-bottom: solid 1px #efefef;
+}
+
+.panel-result h1{
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.input-field {
+    width: 240px;
+    padding: 6px 8px;
+}
+
+.btn {
+    width: 72px;
+    margin-left: 16px;
+    padding: 6px 8px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    appearance: none;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+}
+
